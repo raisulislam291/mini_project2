@@ -1,0 +1,55 @@
+/** @format */
+/* reset code start */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    background-color: rgb(252, 252, 219);
+  text-align: center;
+  color: rgb(35, 24, 158);
+  font-size: 4rem;
+  
+}
+/* reset code ends */
+
+/* post stars */
+.posts {
+    background-color: rgb(252, 252, 219);
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  width: 30%;
+  margin: 0.3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.post:hover {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* post ends */
+
+/* responsive starts */
+
+@media screen and(max-width:992px) {
+  .post {
+    width: 48%;
+  }
+}
+@media screen and(max-width:300px) {
+  .post {
+    width: 100%;
+  }
+}
+
+/* responsive ends */
